@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Drink</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="http://www.prepbootstrap.com/Content/css/loadingbuttoneffects/local.css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <!-- Loading Button Effects - END -->
+        
+        
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+    
+    var drink=[0,0,0,0,0,0,0,0,0,0,0,0]
+    
+	function Optic1a(index,value){
+        drink[index] = value;
+		
+        drink[index+2]=1;
+        
+        console.log(drink);
+        document.getElementById("drink1");
+	}
+	function Optic1b(index,value){
+        drink[index] = value;
+        console.log(drink);
+        document.getElementById("drink1");
+	}
+    </script>
+    <script>
+    function update_drink_name() {
+        document.getElementById("dr1")=document.forms["namechange"]["Drink1"].innerText;
+        console.log (document.forms["namechange"]["Drink1"].value);
+    }
+	</script>
+    <script>
+        function test(){
+            console.log("hahahahh")
+        }
+    </script>
+    <script>
+        var x="1234";
+        function pass() {
+            var PW = document.getElementById("password").value;
+            console.log(PW + "/" + x);
+            if (x==PW ){
+                console.log("hello");
+                y=data("modal" "#name_input")
+                return (y)
+                /*y = document.getElementById("dr1");
+                y.innerHTML = "test drink";
+                
+                data-toggle="modal";
+                data-target="#name_input"; */
+            } else {
+                console.log("error");
+                /*
+                 data-toggle="modal";
+                data-target="#password_input";
+                 */
+                 }
+        }
+    </script>
+</head>
+
+<body style="background-color:rgb(50, 54, 57)">
+    <div align="right" >
+        <button class="btn btn-lg btn-lg5" data-toggle="modal" data-target="#password_input">
+            <i class="fa fa-gear" style="font-size:30px;margin:10px; margin-right:20px"></i>
+        </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="password_input" role="dialog">
+    
+        <div class="modal-dialog">
+            
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Please Enter the Password</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" style="text-align:center;">
+                        <input type="password" id="password" placeholder="Password">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" onclick="pass()" data-toggle="modal" data-target="#name_input">Submit</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="modal fade" id="name_input" role="dialog">
+        <div class="modal-dialog">
+            
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Please Enter the Drink</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" style="text-align:center;">
+                        Drink 1: <input type="text" id="Drink1" name="Drink1" placeholder="Drink 1"><br><br>
+                        Drink 2: <input type="text" name="Drink2" placeholder="Drink 2"><br><br>
+                        Drink 3: <input type="text" name="Drink3" placeholder="Drink 3"><br><br>
+                        Drink 4: <input type="text" name="Drink4" placeholder="Drink 4"><br><br>
+                            
+                            </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" onclick="password1()">Submit</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+<div class="container" >
+    
+
+<div >
+    <div >
+        <h1 style="text-align:center; font-size:85px; color:white ;margin-button:10px margin-top:0px;">BarTrendy</h1>
+    </div>
+   
+   
+    
+</div>
+
+<!-- Loading Button Effects - START -->
+
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="image-block col-sm-12">
+            <h3 class="headermessage2">MenuBar</h3>
+        </div>
+        <div class="image-block1 col-sm-6">
+            <p class="submessage1">  </p>
+        </div>
+        <div class="image-block1 col-sm-6">
+            <p class="submessage1"> </p>
+        </div>
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg2" onclick="Optic1a(0,10)" id="dr1">Drink 1</button>
+        </div>
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg1" onclick="Optic1b(1,25)">25 mL</button>
+        </div>
+        
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg2" onclick="Optic1a(3,20)" id="dr2">Drink 2</button>
+        </div>
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg1" onclick="Optic1b(1,50)">50 mL</button>
+        </div>
+
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg2" onclick="Optic1a(6,30)" id="dr3">Drink 3</button>
+        </div>
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg1" onclick="Optic1b(1,75)" >75 mL</button>
+        </div>
+
+        <div class="image-block col-sm-6">
+            <button class="btn btn-lg btn-lg2" onclick="Optic1a(9,40)" id="dr4">Drink 4</button>
+        </div>
+        
+        <div class="image-block col-sm-6">
+            <form action="watermixer.html">
+                <input class="btn btn-lg btn-lg2" style="margin-top:30px;border-width:0.5px 15px" type="submit" value="Add Drink" />
+            </form>
+        
+            <form action="watermixer2.html">
+                <input class="btn btn-lg btn-lg2" style="margin-top:5px;border-width:0.5px 15px" type="submit" value="Next"/>
+               
+            </form>
+        </div>
+        
+        
+    </div>
+</div>
+</body>
+</html>

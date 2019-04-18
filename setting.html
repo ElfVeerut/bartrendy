@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Setting</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+                    
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script> var x="1234"
+		function password1(){
+			PW=document.getElementById("password").value;
+			console.log(PW==x);
+			if (x==PW ){
+			window.location="namechage.html";}
+			else{window.location="setting.html";}
+				
+		}
+
+	</script>
+                    
+    </head>
+   
+    <body  style="background-color:rgb(50, 54, 57)">
+        <div class="container content" align="center">
+            <div class="page-header">
+                <h1 style="text-align:center;color:white;margin:10px;font-size:60 px;">Please Enter the Password</h1><br>
+                <!--<p style="text-align:center;color:white">The value attribute specifies the initial value for an input field:</p>-->
+            </div>
+            <div class="content">
+                <form action="" style="text-align:center;color:white">
+                    <!--Username:<br>-->
+                        <!--<input type="text" name="" placeholder="John">-->
+                    <!--<br>-->
+                    <!--Password:<br>-->
+                    <input type="password" id="password" placeholder="Password">
+                    <br><br><br>
+		</form>
+		<form>
+                    <input class="btn btn-lg btn-lg4" type="button" onclick="password1()" value="Submit">
+                </form>
+                    <br>
+                    <form action="Home.html">
+                        <input class="btn btn-lg btn-lg4" type="button" value="Home">
+                    </form>
+            
+            <div>
+        </div>
+    </body>
+</html>

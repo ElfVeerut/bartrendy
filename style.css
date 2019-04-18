@@ -1,0 +1,65 @@
+/*/home/*/
+
+.center
+    {display: block;margin-left: auto;margin-right: auto;width: 50%;}
+.settingicon
+    {color:#A9A9A9}
+.settingicon:hover
+    {color:#DCDCDC}
+ .content {
+            margin-top:500px;
+            max-width: 960px;
+            margin: auto;
+        }
+
+.btn-lg3
+    {background-color:red;border-color:red;border-width:40px 40px}
+.btn-lg3:hover
+    {background-color:#b22222;border-color:#b22222}
+
+/*/watermixer/*/
+.btn-lg5
+{background-color:rgb(50, 54, 57);border-color:rgb(50, 54, 57);color:#A9A9A9;padding:0.5px;}
+.btn-lg5:hover
+{color:#DCDCDC}
+.btn-lg4:hover
+    {background-color:#b22222;border-color:#b22222}
+.btn-lg4
+    {background-color:red;border-color:red;border-width:2.5px 2.5px}
+.btn-lg2:hover
+    {background-color:#b22222;border-color:#b22222}
+.btn-lg2
+    {background-color:red;border-color:red;border-width:40px 60px}
+.btn-lg1:hover
+    {background-color:#b22222;border-color:#b22222}
+.btn-lg1
+    {background-color:red;border-color:red;border-width:5px 20px;margin-top:70px}
+.image-block1 > p {
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    
+    }
+.headermessage1 {
+    color: #3073ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin:10px
+    }
+.headermessage2 {
+    color: #3073ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom:7px;
+}
+    
+.submessage1{
+    margin: 0px;
+    color: rgb(123, 132, 140);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top:0px;
+    }
